@@ -881,8 +881,6 @@ img {
 
 .modal-form {
   width: 448px;
-  /*margin-left: auto;
-  margin-right: auto;*/
   padding-top: 12px;
 }
 
@@ -892,7 +890,7 @@ img {
   flex-direction: column;
 }
 
-.modal-form-field:not(:last-child) {
+.modal-form-field:nth-child(-n + 3) {
   margin-bottom: 10px;
 }
 
@@ -1026,8 +1024,6 @@ textarea {
 
 .modal-form-button-field {
   display: flex;
-  padding-bottom: 40px;
-
   justify-content: center;
 }
 
