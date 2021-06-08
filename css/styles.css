@@ -908,7 +908,6 @@ img {
   transition: border 250ms var(--transition-timing-function);
 }
 
-.modal-form-input:hover,
 .modal-form-input:focus {
   outline: none;
   border: 1px solid var(--accent-color);
@@ -938,7 +937,6 @@ textarea {
   transition: border 250ms var(--transition-timing-function);
 }
 
-.modal-form-textarea:hover,
 .modal-form-textarea:focus {
   outline: none;
   border: 1px solid var(--accent-color);
@@ -1068,7 +1066,6 @@ textarea {
   transition: fill 250ms var(--transition-timing-function);
 }
 
-.modal-form-input:hover ~ .modal-form-icon,
 .modal-form-input:focus ~ .modal-form-icon {
   fill: var(--accent-color);
 }
