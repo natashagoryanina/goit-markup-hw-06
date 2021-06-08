@@ -1018,6 +1018,10 @@ textarea {
 
 /* ----------------------------*/
 
+.modal-form-checkbox-link {
+  color: var(--accent-color);
+}
+
 .modal-form-button-field {
   display: flex;
   padding-bottom: 40px;
