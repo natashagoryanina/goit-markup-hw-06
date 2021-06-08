@@ -453,39 +453,41 @@
             </button>
             <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
             <form class="modal-form">
-                <div class="modal-form-field">
-                    <label for="user-name">Имя</label>
-                    <input class="modal-form-input" type="text" name="user-name" id="user-name" autofocus>
+
+                <label class="modal-form-field">
+                    <span class="modal-form-label">Имя</span>
+                    <input class="modal-form-input" type="text" name="user-name" autofocus>
                     <svg class="modal-form-icon" width="18" height="18">
                         <use href="./images/icons.svg#icon-modal-name"></use>
                     </svg>
-                </div>
-            
-                <div class="modal-form-field">
-                    <label for="tel">Телефон</label>
-                    <input class="modal-form-input" type="tel" name="tel" id="tel">
+                </label>
+
+                <label class="modal-form-field">
+                    <span class="modal-form-label">Телефон</span>
+                    <input class="modal-form-input" type="tel" name="tel">
                     <svg class="modal-form-icon" width="18" height="18">
                         <use href="./images/icons.svg#icon-modal-tel"></use>
                     </svg>
-                </div>
-            
-                <div class="modal-form-field">
-                    <label for="email">Почта</label>
-                    <input class="modal-form-input" type="email" name="email" id="email">
+                </label>
+
+                <label class="modal-form-field">
+                    <span class="modal-form-label">Почта</span>
+                    <input class="modal-form-input" type="email" name="email">
                     <svg class="modal-form-icon" width="18" height="18">
                         <use href="./images/icons.svg#icon-modal-email"></use>
                     </svg>
-                </div>
-            
-                <div class="modal-form-field">
-                    <label for="comments">Комментарий</label>
-                    <textarea name="comments" id="comments" rows="6" placeholder="Введите текст"></textarea>
-                </div>
+                </label>
 
-                <div class="modal-form-checkbox-field">
-                    <input type="checkbox" name="terms-of-use" id="terms-of-use">
-                    <label for="terms-of-use">Соглашаюсь с рассылкой и принимаю Условия договора</label>
-                </div>
+                <label class="modal-form-field">
+                    <span class="modal-form-label">Комментарий</span>
+                    <textarea class="modal-form-textarea" name="comments" placeholder="Введите текст"></textarea>
+                </label>
+
+                <label class="modal-form-checkbox-field">
+                    <input class="modal-form-checkbox-input" type="checkbox" name="terms-of-use" value="accept">
+                    <span class="modal-form-checkbox-icon"></span>
+                    <span class="modal-form-checkbox-label">Соглашаюсь с рассылкой и принимаю Условия договора</span>
+                </label>
                 
                 <div class="modal-form-button-field">
                     <button class="modal-form-button" type="submit">Отправить</button>
