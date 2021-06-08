@@ -866,6 +866,7 @@ img {
 
 /* ~~~~~~ Modal Window Form ~~~~~~ */
 .modal-title {
+  display: block;
   margin-top: 40px;
   font-size: 20px;
   line-height: 1.15;
