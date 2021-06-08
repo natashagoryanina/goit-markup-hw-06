@@ -909,6 +909,7 @@ img {
 
 .modal-form-input:hover,
 .modal-form-input:focus {
+  outline: none;
   border: 1px solid var(--accent-color);
 }
 
@@ -938,6 +939,7 @@ textarea {
 
 .modal-form-textarea:hover,
 .modal-form-textarea:focus {
+  outline: none;
   border: 1px solid var(--accent-color);
 }
 
