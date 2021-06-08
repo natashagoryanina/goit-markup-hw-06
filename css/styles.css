@@ -502,6 +502,7 @@ img {
 .footer-contacts-container {
   display: flex;
   flex-direction: column;
+  width: 231px;
 }
 
 /* ~~~~~~~ footer logo ~~~~~~~ */
@@ -618,6 +619,7 @@ img {
 
   min-width: 358px;
   height: 50px;
+  color: var(--primary-white-color);
 
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -829,9 +831,10 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
+  padding: 40px 40px;
 
   width: 528px;
-  min-height: 581px;
+  height: 581px;
 
   background-color: var(--primary-white-color);
 
@@ -868,7 +871,6 @@ img {
 /* ~~~~~~ Modal Window Form ~~~~~~ */
 .modal-title {
   display: block;
-  margin-top: 40px;
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
@@ -879,8 +881,8 @@ img {
 
 .modal-form {
   width: 448px;
-  margin-left: auto;
-  margin-right: auto;
+  /*margin-left: auto;
+  margin-right: auto;*/
   padding-top: 12px;
 }
 
@@ -900,6 +902,8 @@ img {
   padding-bottom: 11px;
   padding-left: 42px;
   padding-right: 12px;
+
+  height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 
